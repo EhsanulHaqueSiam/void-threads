@@ -117,7 +117,9 @@ No border-radius anywhere — sharp edges for streetwear aesthetic.
 
 ## Deployment
 
-Currently configured for **Netlify** (see `netlify.toml`). The build outputs a standard Node.js server via Nitro, so it can be deployed anywhere.
+Live at **[voidthreadsco.netlify.app](https://voidthreadsco.netlify.app)**
+
+Configured for **Netlify** with SSR via Nitro. The build outputs static assets to `.output/public` and server functions to `.netlify/functions-internal/`. See `netlify.toml` for config.
 
 ## License
 
