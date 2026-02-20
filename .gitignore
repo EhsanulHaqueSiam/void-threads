@@ -1,0 +1,8 @@
+node_modules
+.output
+dist
+.vinxi
+.env
+.env.local
+*.log
+*.timestamp_*
